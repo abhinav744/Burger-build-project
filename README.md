@@ -1,4 +1,4 @@
-# Burger Builder Project
+# Burger Build Project
 
 Welcome to the Burger Builder project! This project is a simple web application built with React.js that allows users to customize and order their own burgers.
 
@@ -26,7 +26,7 @@ You need to have Node.js and npm installed on your machine.
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/burger-builder.git
+   git clone https://github.com/abhinav744/Burger-build-project.git
 Navigate to the project directory:
 cd burger-builder
 
