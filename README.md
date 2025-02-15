@@ -1,10 +1,10 @@
-🍔 Burger Builder Project
+# 🍔 Burger Builder Project
 
 A React.js-based web application that allows users to create and customize their own burgers with various ingredients.
 
 
 
-🚀 Features
+## 🚀 Features
 
 🏗️ Build your own burger with customizable ingredients
 
@@ -16,7 +16,7 @@ A React.js-based web application that allows users to create and customize their
 
 🔐 User authentication (if implemented)
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Frontend: React.js, Redux, React Router
 
@@ -28,7 +28,7 @@ Styling: CSS, Bootstrap, Material-UI
 
 Build Tool: Webpack / Vite
 
-📁 Project Structure
+## 📁 Project Structure
 
 
 
@@ -54,9 +54,9 @@ Build Tool: Webpack / Vite
 
 │── README.md          # Documentation
 
-🚀 Installation & Setup
+## 🚀 Installation & Setup
 
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 
 
 
@@ -64,13 +64,13 @@ git clone https://github.com/abhinav744/Burger-build-project.git
 
 cd Burger-build-project
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 
 
 
 npm install
 
-3️⃣ Start the development server
+### 3️⃣ Start the development server
 
 
 
@@ -80,7 +80,7 @@ The application should now be running at http://localhost:3000/.
 
 
 
-🔧 How to Use
+## 🔧 How to Use
 
 Select ingredients to build your burger
 
@@ -90,7 +90,7 @@ Login/Register (if authentication is implemented)
 
 View your order history
 
-📌 Contributing
+## 📌 Contributing
 
 Contributions are welcome! Feel free to:
 
