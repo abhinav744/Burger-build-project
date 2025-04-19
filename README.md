@@ -14,13 +14,12 @@ A React.js-based web application that allows users to create and customize their
 
 💾 Firebase backend integration for storing orders
 
-🔐 User authentication (if implemented)
 
 ## 🛠 Tech Stack
 
 Frontend: React.js, Redux, React Router
 
-Backend: Firebase (or Node.js + Express.js if applicable)
+Backend: Firebase 
 
 State Management: Redux
 
@@ -39,8 +38,6 @@ Build Tool: Webpack / Vite
 │   │── /components     # Reusable UI components
 
 │   │── /containers     # Main pages and burger builder logic
-
-│   │── /hoc            # Higher-order components (if used)
 
 │   │── /store          # Redux state management
 
@@ -86,7 +83,7 @@ Select ingredients to build your burger
 
 Place an order after customizing
 
-Login/Register (if authentication is implemented)
+Login/Register
 
 View your order history
 
