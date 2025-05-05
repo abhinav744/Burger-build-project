@@ -147,4 +147,8 @@ function copyPublicFolder() {
     dereference: true,
     filter: file => file !== paths.appHtml,
   });
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4f7dadc808d3ec1381f66a5e6eee3a17d90c5358

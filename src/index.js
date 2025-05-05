@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
@@ -43,3 +44,21 @@ const app = (
 
 ReactDOM.render( app, document.getElementById( 'root' ) )
 registerServiceWorker();
+=======
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+const app = (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+  
+  ReactDOM.render(app, document.getElementById('root'));
+  registerServiceWorker();
+  
+>>>>>>> 4f7dadc808d3ec1381f66a5e6eee3a17d90c5358

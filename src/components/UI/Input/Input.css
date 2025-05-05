@@ -1,18 +1,32 @@
+<<<<<<< HEAD
 .Input {
+=======
+.Input{
+>>>>>>> 4f7dadc808d3ec1381f66a5e6eee3a17d90c5358
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 .Label {
+=======
+.Label{
+>>>>>>> 4f7dadc808d3ec1381f66a5e6eee3a17d90c5358
     font-weight: bold;
     display: block;
     margin-bottom: 8px;
 }
+<<<<<<< HEAD
 
 .InputElement {
     outline: none;
     border: 1px solid #ccc;
+=======
+.InputElement{
+    outline: none;
+    border: 1px solid#ccc;
+>>>>>>> 4f7dadc808d3ec1381f66a5e6eee3a17d90c5358
     background-color: white;
     font: inherit;
     padding: 6px 10px;
@@ -20,6 +34,7 @@
     width: 100%;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 .InputElement:focus {
     outline: none;
@@ -29,4 +44,14 @@
 .Invalid {
     border: 1px solid red;
     background-color: #FDA49A;
+=======
+.InputElement:focus{
+    outline: none;
+    background-color: #ccc; 
+}
+.Invalid{
+    border: 1px solid red;
+    background-color: #FDA49A;
+
+>>>>>>> 4f7dadc808d3ec1381f66a5e6eee3a17d90c5358
 }

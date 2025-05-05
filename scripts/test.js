@@ -16,7 +16,11 @@ process.on('unhandledRejection', err => {
 require('../config/env');
 
 const jest = require('jest');
+<<<<<<< HEAD
 let argv = process.argv.slice(2);
+=======
+const argv = process.argv.slice(2);
+>>>>>>> 4f7dadc808d3ec1381f66a5e6eee3a17d90c5358
 
 // Watch unless on CI or in coverage mode
 if (!process.env.CI && argv.indexOf('--coverage') < 0) {
@@ -24,4 +28,8 @@ if (!process.env.CI && argv.indexOf('--coverage') < 0) {
 }
 
 
+<<<<<<< HEAD
 jest.run(argv);
+=======
+jest.run(argv);
+>>>>>>> 4f7dadc808d3ec1381f66a5e6eee3a17d90c5358
