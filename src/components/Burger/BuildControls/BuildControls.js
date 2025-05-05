@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-import classes from './BuildControls.css';
-import BuildControl from './BuildControl/BuildControl';
+import classes from './BuildControls.css'
+import BuildControl from './BuildControl/BuildControl'
 
 const controls = [
     { label: 'Salad', type: 'salad' },
@@ -24,8 +24,8 @@ const buildControls = (props) => (
         <button 
             className={classes.OrderButton}
             disabled={!props.purchasable}
-            onClick={props.ordered}>ORDER NOW</button>
+            onClick={props.ordered}>{props.isAuth ? 'ORDER NOW' : 'LOG IN TO ORDER'}</button>
     </div>
 );
 
-export default buildControls;
+export default buildControls
